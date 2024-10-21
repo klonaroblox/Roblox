@@ -1,9 +1,12 @@
 -- Text.lua
 
+-- Define the library table
 local TextLibrary = {}
 
+-- Add a function to the library
 function TextLibrary.sayHello(text)
     print(text)
 end
 
-return TextLibrary  -- This is necessary for the library to return the table
+-- Return the library table
+return TextLibrary
